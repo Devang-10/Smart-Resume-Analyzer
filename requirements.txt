@@ -1,5 +1,24 @@
+# Core App
 streamlit
+matplotlib
+
+# NLP & Resume Analysis
 nltk
 scikit-learn
-matplotlib
-textract==1.6.3
+
+# Resume File Parsing
+PyPDF2
+docx2txt
+
+# Optional (if used anywhere, like textract)
+textract
+
+# If you're using resume matching or text similarity
+numpy
+pandas
+
+# Ensure compatibility
+python-docx
+# For any additional libraries you might need
+# based on your specific implementations or features.
+# For example, if you are using OpenAI's API
