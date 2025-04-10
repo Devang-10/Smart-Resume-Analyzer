@@ -1,6 +1,7 @@
 # Core App
 streamlit
 matplotlib
+six
 
 # NLP & Resume Analysis
 nltk
