@@ -17,8 +17,15 @@ textract
 numpy
 pandas
 
+# PDF Report Generation
+reportlab
+
+# For Matching Logic & Similarity
+scikit-learn
+
 # Ensure compatibility
 python-docx
 # For any additional libraries you might need
 # based on your specific implementations or features.
 # For example, if you are using OpenAI's API
+typing_extensions
