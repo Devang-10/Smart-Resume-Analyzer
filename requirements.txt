@@ -12,9 +12,6 @@ scikit-learn
 PyPDF2
 docx2txt
 
-# Optional (if used anywhere, like textract)
-textract
-
 # If you're using resume matching or text similarity
 numpy
 pandas

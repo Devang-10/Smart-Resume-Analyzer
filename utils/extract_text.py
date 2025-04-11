@@ -1,4 +1,3 @@
-import textract
 import docx2txt
 import PyPDF2
 from io import BytesIO

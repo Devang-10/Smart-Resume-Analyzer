@@ -68,9 +68,9 @@ def generate_pdf_report(output_path, resume_text, extracted_data, feedback, scor
     elements.append(Paragraph(feedback, styles['Boxed']))
     elements.append(Spacer(1, 14))
 
-    # Resume Text (Optional, long)
-    elements.append(Paragraph("📄 Full Resume Text (Extracted)", styles['SubHeading']))
-    elements.append(Paragraph(resume_text[:3000] + ("..." if len(resume_text) > 3000 else ""), styles['NormalText']))
+    # # Resume Text (Optional, long)
+    # elements.append(Paragraph("📄 Full Resume Text (Extracted)", styles['SubHeading']))
+    # elements.append(Paragraph(resume_text[:3000] + ("..." if len(resume_text) > 3000 else ""), styles['NormalText']))
 
     doc.build(elements)
 
